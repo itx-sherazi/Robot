@@ -103,3 +103,21 @@
   100% { transform: translateY(100vh); opacity: 0; }
 }
 
+.slider{
+  -webkit-appearance: none;
+  height: 100%;
+  background: transparent;
+}
+.slide::-webkit-slider-thumb{
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  min-height: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.bg-layer{
+  background-image: url(/bg_layer.png);
+}
